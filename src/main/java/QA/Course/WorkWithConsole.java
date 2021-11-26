@@ -2,12 +2,24 @@ package QA.Course;
 
 public class WorkWithConsole {
     public static void main(String[] args) {
-     printdayoftheweek( 8);
+
+        printdayoftheweek(8);
+        int a = 5;
+        int b = 10;
+        int S = (a * b);
+        int P = (a + b + a + b);
+
+        System.out.println(S);
+        System.out.println(P);
+
+
     }
 
-    {
 
-    }
+
+
+
+
 
     public static void printdayoftheweek(int day) {
         String result = "Not valid day";
@@ -28,6 +40,8 @@ public class WorkWithConsole {
         }
         System.out.println(result);
     }
+
+
 
 }
 
